@@ -86,3 +86,40 @@ Finally, Image captioning focuses on the intersection between natural language p
 
 ===SLIDE
 In this course, we'll be heavily focusing on Convolutional Neural Networks - not just for fun, but because since 2012 they have reigned supreme over nearly every class of image recognition challenge.  Fundamentally, the architecture of CNNs has not changed tremendously since their inception - AlexNet and ResNet both still share a number of similarities with the initial model you see here (a model designed to auotmatically read checks!).  Core concepts - how convolutions are done, feature maps, subsampling, pooling, and fully connected layers are all still present today - and we'll be doing a deep dive into each of these.  
+
+===SLIDE
+Of particular note for our course is the importance of data and hardware evolution over the last few decades.  While the basic concepts for CNNs go back to the late 90s, limitations in computation and data had very dramatic implications for the types of theories and networks we were able to test.  Unlike many other fields of inquiry, Data Science as a whole is predicated on algorithms with so many free parameters - parameters that are calibrated by stochastic processes - that it is infeasible, if not impossible, to provide theoretical solutions as to what will or will not work.  While we can make really good guesses - based on examples from the natural world and past experience - the field differs significantly from disciplines such as Physics in which single, deterministic solutions can be proven.  Advents such as quantum computing - which would enable a massive leap forward in our ability to parameterize models - could change this dramatically over the coming decades, and reshape the entire field.  
+
+This slide illustrates two of the huge driving forces behind the improvements in computer vision from the late 90s to today.  First, we have physical hardware - since the late 1990s, we have seen a literal order-of-magnitude improvement in clock speed of processors, and multiple orders of magnitude improvement in the number of transistors available on our infrastructure.  These numbers are reflective of (though not directly a measuremennt of) the number of parameters we could meaningfully estimate before the heat death of the sun, and thus the depth of networks we could feasibly test.  Similarly, our ability to test has increased dramatically as data has become more plentiful - we've moved from testing our models based on around 12 megabytes of hand-written characters, to oveer 35 terrabytes of thousands of classes of objects today.
+
+===SLIDE
+Advances have not all been about quantity - we've also seen a large increase in the diversity of image datasets available for use.  From labeled satellite imagery, to video, to emotions there are now a wide variety of different types of models one can seek to train and test networks on.  This has been critical in enabling us to apply computer vision to an ever increasing range of real-world problems.
+
+===SLIDE
+Now, on to a few logistical items for the course, and how we hope you'll take advantage of the opportunity to learn all about computer vision.  First, we'll be using Piazza for communication - all students will be enrolled (you'll receive a link), and you can choose to post anonymous questions on Piazza, or respond to any items that come up.  Both myself and the TAs for the course will be responding regularly to the content you post on Piazza, and it is one of the best (if not the best) resource for this course.
+
+Further, Piazza will have all of the content and links you need to succeed in this course - our most recent syllabus, how to sign up for office hours, and how to submit assignments.  We heavily encourage you to check in with Piazza on a regular basis.
+
+This course is also built on the shoulders of many giants, but in particular we seek to provide a "liberal arts" take on material coming out of MIT and Stanford on the topic of computer vision.  Just a few years ago, one of the first textbooks on this topic was released by MIT Press, and will provide an excellent primer for those of you seeking a bit more depth on any topics we cover.  While totally optional for this course, it is freely available online, and will provide a good background for many of our activities.  Additionally, the Stanford Computer Vision Lab has provided their lectures and course materials for free online; again optional, these materials will provide a good opportunitiy for you to do a deeper dive on topics of interest to you.
+
+===SLIDE
+At the end of this course, we hope that you will have the confidence to apply convolutional neural networks to a vast range of challenges.  We'll really be focusing on three things.  First, we hope to instill in you a deep understanding of how convolutional networks work - not just how to plug data into them.  You should be able to write a network from scratch by the end of this course, and have a deep understanding of how to debug and tweak the networks for your own problem cases.  Second, we'll be focusing on practical applications - i.e., this won't just be a course about theory, but also one about providing the knowledge you'll need to select the right software and hardware tools to build your own solutions. 
+
+Finally, we'll also be setting aside a little bit of time to really take a step back and visualize all of the incredible things going on in a convolutional network.  Unlike the human brain, which we (at least, today) can't plug right into to see what it's seeing, we *can* do that with a CNN.  This opens the doors to a number of beautiful insights, and also a few nightmares along the way.
+
+===SLIDE
+Grading in this course comes down to 5 moments - 3 assignments which will be released throughout the course, a midterm and final.  In each case, you will be given a grade by an algorithm - after all, if you're going to be creating algorithms that may impact the lives of others, it's onnly fair that you are on the receiving end at least once!  Throughout the course, you can always challenge your grade and opt for a human review of your score; however, please note that this will be a completely blind review - the human grader will not be aware of the grade the AI gave you, and thus your score could go up or down.  We'll have a deeper discussion about grading once the first assignment is released.
+
+Please note that late submisisons are not accepted.  The deadlines in this course are intentionally set a few days later than absolutely necessary already - so, imagine you've just already been given an extension by default, and submit your work early!
+
+Please note that we highly encourage collaboration, but that the work you submit should be your own.  We do not have any group projects in this course.
+
+===SLIDE
+Finally, I want to close today with a few baseline assumptions about you, so you are aware as you choose to either stay in or drop this course!  First and foremost, I am assuming you have a strong proficiency in python - every assignment in this course is going to be submitted in Python, so you will need to be prepared.  While we will be available to help with some issues, most debugging will be up to you. 
+
+Second, this course will require some farily basic knowledge about how to take derivatives, what they are, matrix algebra (multiplication), and a few other basic concepts.  If you haven't taken upper level math coursework that covers these topics, you should be fine, but may have a little catching up to do here and there.
+
+Finally, I assume you have a knowledge of basic machine learning concepts such as optimization, classifiers, cost functions, and related concepts.  You should have learned these in the pre-reqs for this course.
+
+===SLIDE
+That's all for today - I encourage you all to head over to the course website and explore the resources we have available, and wish you all good luck in the course!
