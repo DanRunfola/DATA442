@@ -231,7 +231,7 @@ class NearestNeighborSinglePrediction:
 
 #Build our "Y" and "X" data for training - two lists as the primary paradigm:
 trainingX = [letterT, letterI, letterl]
-trainingy = np.array(["T", "l", "I"])
+trainingy = np.array(["T", "I", "l"])
 
 nn = NearestNeighbor()
 nn.train(X=trainingX, y=trainingy)
