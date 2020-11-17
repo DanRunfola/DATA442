@@ -1,0 +1,3 @@
+
+=== SLIDE
+Now, we're going to move on to linear classification techniques.  This will be one of the most important building blocks for neural nets, so pay attention!
