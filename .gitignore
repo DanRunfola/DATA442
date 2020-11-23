@@ -8,6 +8,7 @@ __pycache__/
 
 #Specific files 
 assignments/assignment1/*.gz
+assignments/assignment1/cifar-10-batches-py/
 
 # Distribution / packaging
 .Python
