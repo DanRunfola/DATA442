@@ -39,5 +39,8 @@ You should see your environment name in the path for python3.  For example, our 
 <b>Step 5: Navigate to where you downloaded and extracted this course.  </b>
 Navigate to where you extracted the course zip file onto your computer in JupyterHub, and open the file "downloadLabData.ipynb".  This is located in the assignment1 folder.  Follow the instructions in that file.
 
+<b>Step 6: Complete Assignmnet 1</b>
+To complete Assignment 1, follow along in each Jupyter file and copy your final functions into the "exampleSubmission.py".  If you would like to test submitting your file to see what grade you would get, you can do so at any time (including with exampleSubmission.py).  Instructions for how to submit are found in Piazza.
+
 
 

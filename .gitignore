@@ -1,3 +1,9 @@
+#Lab files 
+assignments/assignment1/*.gz
+assignments/assignment1/cifar-10-batches-py
+*.pickle
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -6,9 +12,6 @@ __pycache__/
 # C extensions
 *.so
 
-#Specific files 
-assignments/assignment1/*.gz
-assignments/assignment1/cifar-10-batches-py/
 
 # Distribution / packaging
 .Python
