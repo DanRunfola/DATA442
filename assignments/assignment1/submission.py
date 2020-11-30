@@ -5,9 +5,5 @@
 #saved as expected for the grading code to work.
 
 #Before you get started, it is highly recommended you submit this
-#file as-is to see how it works!
-
-studentFirstName = "Dan"
-studentLastName = "Runfola"
-studentID = "930123456"
+#file as-is to see how it works (of course, you will get a 0 on that submission)!
 

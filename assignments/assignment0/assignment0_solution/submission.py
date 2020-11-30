@@ -1,21 +1,12 @@
-class theCalculator():
-  def multiply(self, x, y):
-    return(x * y)
-  
-  def add(self, x, y):
-    return(x + y)
-  
-  def subtract(self, x, y):
-    return(x - y)
-  
-  def divide(self, x, y):
-    return(x/y)
+#In this example assignment, you must code a calculator with
+#functions which multiply and add.  
+
+def multiply(x, y):
+  return(x * y)
+
+#Intentionally wrong addition function!
+def add(x, y):
+  return(x + y + str("error"))
+
   
   
-  
-if __name__ == '__main__':
-  calc = theCalculator()
-  print(calc.multiply(2,3))
-  print(calc.add(2,3))
-  print(calc.subtract(2,3))
-  print(calc.divide(2,3))
